@@ -55,7 +55,8 @@ ServerTokens OS
 # Do NOT add a slash at the end of the directory path.
 #
 # ServerRoot "/etc/httpd"
-ServerRoot "<%= ENV['OPENSHIFT_HTTPD_DIR'] %>"
+# ServerRoot "<%= ENV['OPENSHIFT_HTTPD_DIR'] %>"
+ServerRoot "<%= ENV['OPENSHIFT_HTTPD_DIR'].chop %>"
 
 #
 # PidFile: The file in which the server should record its process
