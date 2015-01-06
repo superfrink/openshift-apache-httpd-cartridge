@@ -6,7 +6,7 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 function start {
   echo "Starting Httpd cartridge"
-  echo "/usr/sbin/httpd -f $OPENSHIFT_HTTPD_DIR/etc/httpd.conf -k start"
+  /usr/sbin/httpd -f $OPENSHIFT_HTTPD_DIR/etc/httpd.conf -k start
 }
 
 function stop {
