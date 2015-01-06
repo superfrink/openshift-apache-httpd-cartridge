@@ -33,3 +33,4 @@ Endpoints:
   - Frontend: ''
     Backend: ''
     Options: { websocket: false}
+Source-Url: https://github.com/akubicharm/openshift-apache-httpd-cartridge.git
