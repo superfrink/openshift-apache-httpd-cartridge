@@ -63,7 +63,8 @@ ServerRoot "<%= ENV['OPENSHIFT_HTTPD_DIR'] %>"
 # /etc/sysconfig/httpd must be set appropriately if this location is
 # changed.
 #
-PidFile run/httpd.pid
+#PidFile run/httpd.pid
+PidFile /var/tmp/httpd.pid
 
 #
 # Timeout: The number of seconds before receives and sends time out.
