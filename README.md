@@ -36,6 +36,7 @@ git config -list
 git push -u origin master
 
 == 例)
+
 git remote set-url origin https://akubicharm@github.com/akubicharm/openshift-apache-httpd-cartridge.git
 
 
